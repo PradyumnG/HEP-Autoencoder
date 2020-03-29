@@ -13,6 +13,8 @@ The nn_utils file is used to import our model which is AE_3D_200().</br>
 # Steps to run the autoencoder
 Keep the nn_utils module and the AutoEncoder.ipynb file in the same folder and open jupyter notebook using this folder as the current working directory.</br>
 If we want to load the trained model, we can do so by using learn.load method, else we can train our model on the training and test datasets that are given in this repository (these files have to be kept in the same folder as our AutoEncoder.ipynb file).</br>
+Make sure that the required libraries are installed, otherwise install them using pip package manager.</br>
+After completing these steps, we can now run our AutoEncoder.ipynb file from a jupyter notebook.
 
 # Reconstruction Loss Plots
 ![](images/original_vs_reconstruced_pt.JPG) | ![](images/original_vs_reconstruced_eta.JPG)
