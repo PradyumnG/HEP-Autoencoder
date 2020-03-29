@@ -15,8 +15,8 @@ Keep the nn_utils module and the AutoEncoder.ipynb file in the same folder and o
 If we want to load the trained model, we can do so by using learn.load method, else we can train our model on the training and test datasets that are given in this repository (these files have to be kept in the same folder as our AutoEncoder.ipynb file).</br>
 
 # Reconstruction Loss Plots
-![](images/reconstruction%20loss%20of%20pt.JPG) | ![](images/reconstruction%20loss%20of%20eta.JPG)
-![](images/reconstruction%20loss%20of%20phi.JPG) | ![](images/reconstruction%20loss%20of%20E.JPG)
+![](images/original_vs_reconstruced_pt.JPG) | ![](images/original_vs_reconstruced_eta.JPG)
+![](images/original_vs_reconstruced_phi.JPG) | ![](images/original_vs_reconstruced_E.JPG)
 </br>
 As we can see from these plots, our autoencoder has reconstructed the original data with minimal loss of information.</br>
 Thus an autoencoder that encodes the given 4 dimensional data to 3 dimensions and reconstructs the original 4 dimensional data with minimal loss has been successfully implemented.</br>
