@@ -20,4 +20,4 @@ If we want to load the trained model, we can do so by using learn.load method, e
 </br>
 As we can see from these plots, our autoencoder has reconstructed the original data with minimal loss of information.</br>
 Thus an autoencoder that encodes the given 4 dimensional data to 3 dimensions and reconstructs the original 4 dimensional data with minimal loss is successfully implemented.</br>
-The original HEPAutoencoder that was built on the master [thesis](https://lup.lub.lu.se/student-papers/search/publication/9004751) project of Eric Wulff can be found [here](https://github.com/Skelpdar/HEPAutoencoders).
+The HEPAutoencoder that was built on the master [thesis](https://lup.lub.lu.se/student-papers/search/publication/9004751) project of Eric Wulff can be found [here](https://github.com/Skelpdar/HEPAutoencoders).
