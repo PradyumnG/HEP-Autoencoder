@@ -17,7 +17,7 @@ If we want to load the trained model, we can do so by using learn.load method, e
 Make sure that the required libraries are installed, otherwise install them using the pip package manager.</br>
 After completing these steps, we can now run our AutoEncoder.ipynb file from a jupyter notebook.
 
-# Reconstruction Loss Plots
+# Reconstructed Data and Original Data Plots
 ![](images/original_vs_reconstruced_pt.JPG) | ![](images/original_vs_reconstruced_eta.JPG)
 ![](images/original_vs_reconstruced_phi.JPG) | ![](images/original_vs_reconstruced_E.JPG)
 </br>
