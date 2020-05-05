@@ -1,4 +1,4 @@
-# ATLAS Autoencoders project evaluation exercise
+# ATLAS Autoencoders
 The task given was to compress ATLAS trigger jet events data using an autoencoder.</br>
 The training and test data are stored as all_jets_train_4D_100_percent.pkl and all_jets_test_4D_100_percent.pkl respectively.</br>
 These pickle files are loaded using the read_pickle method in pandas.</br>
